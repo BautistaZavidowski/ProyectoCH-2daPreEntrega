@@ -368,6 +368,32 @@ body{
     height: calc(100% - 112px);
 }
 
+.preguntas-frec .pfrec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.preguntas-frec .pfrec div {
+    width: 75%;
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.13);  ;
+}
+
+.preguntas-frec .pfrec div h2 {
+    font-size: 25px;
+}
+
+.preguntas-frec .pfrec div p {
+    text-align: start;
+    font-size: 15px;
+}
 
 
                                                             /* Media Queries */
@@ -419,6 +445,10 @@ body{
     .nosotros ol li p {
         font-size: 19px;
     }
+
+    .preguntas-frec .pfrec div {   
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -466,6 +496,14 @@ body{
 
     .nosotros ol li:nth-child(odd){ 
         flex-direction: column;
+    }
+
+    .preguntas-frec .pfrec div h2 {
+        font-size: 20px;
+    }
+    
+    .preguntas-frec .pfrec div p {
+        font-size: 12px;
     }
 }
 

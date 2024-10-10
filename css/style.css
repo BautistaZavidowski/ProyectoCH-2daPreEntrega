@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,a, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+                                                                        /*! Elementos del Header */
+
+
+header nav .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    margin: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header nav div ul {
+    background-color: rgba(92, 87, 87, 0.096);
+}
+
+header {
+    margin: 1vw;
+    margin-bottom: 4vw;
+}
+
+header nav div ul li {
+    margin: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header a img {
+    width: 66px;
+    height: 66px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 100px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: underline rgba(255, 255, 255, 0.295);
+}
+
+
+
+                                                                        /** Elementos del footer */
+
+footer {
+    margin: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+footer a img {
+    width: 66px;
+    height: 66px;
+    padding: 10px;
+}
+
+body{ 
+    background-image: url(../img/posible-fondo-de-pagina-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+                                                                        /* Elementos del main hero */
+
+
+.hero div h2 {
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    height: 40vw;
+    padding: 5vw;
+}
+
+.hero div a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.fixed a img{
+    height: 50px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+}
+
+/* iframe */
+
+.hero iframe{
+    margin: 10px;
+}
+
+                                                                /*? Etiquetas de la section premuestra */
+
+.premuestra {
+    height: 30vw;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.premuestra .tarjetas img{
+    height: 16vw;
+    padding: 10px;
+}
+
+.premuestra .tarjetas div {
+    background-color: rgba(92, 87, 87, 0.096);
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.premuestra .tarjetas div:hover{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.premuestra .tarjetas h3{
+    margin: 20px 20px 10px 20px;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.premuestra .tarjetas a{
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.premuestra h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: overline underline white;
+}
+
+                                                               /*? Etiquetas de la section beneficios */
+
+.beneficios {
+    padding: 50px;
+    height: 50vw;
+}
+
+.beneficios h2{
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: underline overline white 3px;
+    color: white;
+    text-align: center;
+}
+
+.beneficios .ventajas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beneficios .ventajas div {
+    width: 25%;
+    background-color: rgba(92, 87, 87, 0.096);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.beneficios .ventajas div h3 {
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    text-decoration: underline white;
+    text-align: center;
+}
+
+.beneficios .ventajas div h4{
+    text-align: center;
+    font-weight: 200;
+    color: white;
+}
+
+.beneficios .ventajas div img {
+    height: 15vw;
+    padding: 1vw;
+}
+
+
+                                                        /** Formulario de la pagina contacto */
+
+
+.formulario form div label {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.formulario div {
+    margin: 10px;
+}
+
+.formulario {
+    background-color: rgba(92, 87, 87, 0.096);
+    margin: 1vw;
+}
+
+
+                                                                /** Pagina de productos */
+
+.productos .grid-container div img{
+    width: 75%;
+    padding: 5px;
+}
+
+.productos .grid-container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(92, 87, 87, 0.096);
+    text-align: center;
+}
+
+
+.productos .grid-container div h3{
+    margin: 20px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: white;
+}
+
+.productos .grid-container div a{
+    font-size: 15px;
+    color: black;
+    padding: 2px;
+    margin: 1vw;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.productos h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100px;
+    margin-bottom: 5vw;
+    text-align: center;
+    text-decoration: overline underline white;
+}
+
+.productos .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.productos .grid-container div:hover{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+
+                                                            /* Pagina de nosotros*/
+
+
+.nosotros ol li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    background-color:rgba(255, 255, 255, 0.13); 
+}
+
+.nosotros ol li:nth-child(odd){ 
+    flex-direction: row;
+}
+
+.nosotros ol li p {
+    font-size: 25px;
+    color: white;
+}
+
+.nosotros ol li img {
+    height: 10vw;
+    margin: 10px;
+}
+
+.nosotros ol {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+
+.nosotros h2 {
+    text-decoration: underline white;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+                                                            /*Pagina de Preguntas frecuentes */
+
+.preguntas-frec {
+    height: calc(100% - 112px);
+}
+
+
+
+                                                            /* Media Queries */
+
+@media screen and (max-width: 1250px){
+
+
+    .productos h2{
+        font-size: 4vw;
+    }
+
+    .productos .grid-container {
+        grid-template-columns: repeat(2,1fr);
+        width: 70vw;
+    }
+
+    .productos .grid-container div {
+        width: 30vw;
+    }
+
+    .nosotros h2{
+        font-size: 28px;
+    }
+
+    .nosotros ol li p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    .productos .grid-container {
+
+        width: 80vw;
+    }
+    
+    .productos .grid-container div {
+        width: 35vw;
+    }
+
+    header nav div h1 {
+        font-size: 6vw;
+    }
+
+    .nosotros h2 {
+        font-size: 20px;
+    }
+
+    .nosotros ol li p {
+        font-size: 19px;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .productos h2 {
+        font-size: 4vw;
+    }
+
+    .productos .grid-container {
+        grid-template-columns: 1fr;
+        row-gap: 4vw;
+        width: 60%;
+    }
+
+    .productos .grid-container div {
+        width: 70%;
+    }
+
+    .productos .grid-container div a {
+        font-size: 10px;
+    } 
+
+    footer a img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nosotros ol li p {
+        font-size: 17px;
+    }
+
+    .nosotros h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .nosotros ol li{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .nosotros ol li:nth-child(odd){ 
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:439px){
+
+    .productos .grid-container div h3 {
+        font-size: 17px;
+    }
+
+
+    header nav .container-fluid a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    header nav .container-fluid .collapse ul li {
+        font-size: 15px;
+    }
+
+    .nosotros ol li p {
+        font-size: 15px;
+    }
+
+    .nosotros h2 {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 387px){
+
+    .productos .grid-container div h3 {
+        font-size: 14px;
+    }
+
+    footer a img {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+
+

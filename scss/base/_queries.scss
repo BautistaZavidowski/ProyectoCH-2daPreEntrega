@@ -1,0 +1,420 @@
+@media screen and (max-width: 1475px) {
+    .hero{
+        div{
+            h2{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .productos{
+        h2{
+            font-size: 4vw;
+        }
+        .grid-container{
+            grid-template-columns: repeat(2,1fr);
+            width: 70vw;
+        }
+    }
+    .nosotros{
+        h2{
+            font-size: 28px;
+        }
+        ol{
+            li{
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .hero{
+        div{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    .premuestra{
+        h2{
+            font-size: 25px;
+        }
+    }
+    .beneficios{
+        h2{
+            font-size: 23px;
+        }
+        .ventajas{
+            div{
+                h3{
+                    font-size: 22px;
+                }
+                h4{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .formulario{
+        .tabla-formulario{
+            form{
+                div{
+                    input{
+                        font-size: 15px;
+                        width: 50%;
+                    }
+                    select{
+                        font-size: 15px;
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .productos{
+        .grid-container{
+            width: 80vw;
+        }
+    }
+
+    header {
+        nav{
+            div{
+                h1{
+                    font-size: 6vw;
+                }
+            }
+        }
+    }
+    .nosotros{
+        h2{
+            font-size: 20px;
+        }
+        ol{
+            li{
+                p{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .preguntas-frec{
+        .pfrec{
+            div{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        iframe{
+            width: 75%;
+        }
+    }
+    .premuestra{
+        height: 90%;
+        margin-top: 10%;
+        h2{
+            font-size: 30px;
+        }
+        .tarjetas{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div{
+                margin: 10px;
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .beneficios {
+        height: 50%;
+        .ventajas{
+            flex-direction: column;
+            div{
+                h3{
+                    font-size: 20px;
+                }
+                h4{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .formulario{
+        .tabla-formulario{
+            width: 75%;
+            form{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .productos{
+        h2{
+            font-size: 4vw;
+        }
+        .grid-container{
+            grid-template-columns: 1fr;
+            row-gap: 4vw;
+            width: 60%;
+            div{
+                width: 70%;
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    footer{
+        div{
+            a{
+            img{
+                width: 60px;
+                height: 60px;
+            }
+            }
+        }
+    }
+    .nosotros{
+        h2{
+            font-size: 18px;
+        }
+        ol{
+            li{
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    .premuestra{
+        .tarjetas{
+            div{
+                h3{
+                    font-size: 17px;
+                }
+                a{
+                    font-size: 15px;
+                    height: 50%;
+                }
+            }
+        }
+    }
+    .formulario {
+        .titulo-formulario{
+            h2{
+                font-size: 30px ;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .tabla-formulario{
+            form{
+                div{
+                    label{
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px){
+    .nosotros{
+        ol{
+            li{
+                flex-direction: column-reverse;
+                text-align: center;
+                &:nth-child(odd){
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    .preguntas-frec{
+        .pfrec{
+            div{
+                h2{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .hero{
+        div{
+            h2{
+                font-size: 17px;
+            }
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+    .premuestra{
+        h2{
+            font-size: 23px;
+        }
+        .tarjetas{
+            div{
+                img{
+                    height: 150px;
+                }
+            }
+        }
+    }
+    .beneficios{
+        .ventajas{
+            div{
+                height: 250px;
+            }
+        }
+        h2{
+            font-size: 17px;
+        }
+    }
+    .formulario{
+        .titulo-formulario{
+            h2{
+                font-size: 25px ;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .tabla-formulario{
+            form{
+                div{
+                    label{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:439px){
+    .productos{
+        .grid-container{
+            .grid{
+                h3{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    header{
+        nav{
+            .container-fluid{
+                a{
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                .collapse{
+                    ul{
+                        li{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .nosotros{
+        h2{
+            font-size: 16px;
+        }
+        ol{
+            li{
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .hero{
+        div{
+            h2{
+                font-size: 14px;
+            }
+            a{ 
+                font-size: 12px;
+            }
+        }
+    }
+    .premuestra{
+        h2{
+            font-size: 18px;
+        }
+        .tarjetas{
+            div{
+                img{
+                    height: 125px;
+                }
+            }
+        }
+    }
+    .beneficios{
+        .ventajas{
+            div{
+                h4{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .formulario{
+        .tabla-formulario{
+            form{
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 5px 0px 0px 0px;
+                    input{
+                        font-size: 12px;
+                    }
+                }
+                .end-form{
+                    align-items: center;
+                    .submit-reset{
+                        align-items: center;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 387px){
+    .productos{
+        .grid-container{
+            .grid{
+                h3{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

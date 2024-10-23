@@ -1,0 +1,21 @@
+$color-principal: white;
+$color-secundario: white;
+$color-terciario: white;
+$color-cuaternario: white;
+
+$button-background: white, black, wheat;
+
+%hover{
+    transform: scale(1.2);
+    box-shadow: -33px 23px 20px 8px rgba(0,0,0,0.1);
+    transition: 1s;
+}
+
+@mixin flex ($flex, $direction, $justify, $align, $text-align){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    text-align: $text-align;
+}
+

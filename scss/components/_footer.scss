@@ -1,0 +1,16 @@
+footer{
+    margin: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    bottom: 0;
+    div{
+        a{
+            img{
+                width: 66px;
+                height: 66px;
+                padding: 10px;
+            }
+        }
+    }
+}

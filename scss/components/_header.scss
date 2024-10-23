@@ -1,0 +1,42 @@
+header{
+    margin: 1vw;
+    margin-bottom: 4vw;
+    nav{
+        .container-fluid{
+            display: flex;
+            flex-direction: row;
+            justify-content: start; 
+            margin: 5px;
+            display: flex;
+            flex-direction: row-reverse;
+            a{
+                img{
+                    width: 66px;
+                    height: 66px;
+                }
+            }
+            h1{
+                font-size: 30px;
+                font-weight: 100px;
+                color: $color-principal ;
+                padding: 10px;
+                text-decoration: underline rgba(255, 255, 255, 0.295);
+            }
+            }
+            button{
+            }
+            .div{
+            }
+            ul{
+                background-color: rgba(92, 87, 87, 0.096);
+                li{
+                    margin: 10px;
+                    text-align: center;
+                    a{
+                        color: nth($button-background, 1);
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }

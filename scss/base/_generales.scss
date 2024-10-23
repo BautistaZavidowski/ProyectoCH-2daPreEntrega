@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,a, p, label { 
+    font-family: "DynaPuff", system-ui;
+}
+
+body{
+    background-image: url(../img/posible-fondo-de-pagina-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
